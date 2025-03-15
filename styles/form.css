@@ -1,0 +1,102 @@
+/* Form Container Styling */
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Fieldset & Legend */
+fieldset {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  font-size: 1.2em;
+  color: #007bff;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+/* Labels & Inputs */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Radio Buttons */
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  font-weight: normal;
+}
+
+/* Textarea */
+textarea {
+  resize: vertical;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="reset"] {
+  background-color: #6c757d;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+}
+
