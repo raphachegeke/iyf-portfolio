@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 6</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 300px;
+            background-color: #fffff0;
+            border: 2px solid #000;
+            margin: 50px auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        .back {
+            width: 200px;
+            height: 150px;
+            background-color: blue;
+            border: 2px solid #000;
+            padding: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .front {
+            width: 200px;
+            height: 150px;
+            background-color: red;
+            border: 2px solid #000;
+            padding: 10px;
+            position: relative;
+            z-index: 2; 
+            margin-top: -100px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back">Back</div>
+        <div class="front">Front</div>
+    </div>
+</body>
+</html>
